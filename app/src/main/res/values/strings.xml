@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Persegi Panjang</string>
+    <string name="info_pp">Luas Persegi Panjang</string>
+    <string name="panjang">Panjang (cm)</string>
+    <string name="lebar">Lebar (cm)</string>
+    <string name="hitung">Hitung</string>
+    <string name="panjang_invalid">Keterangan panjang harus diisi.</string>
+    <string name="lebar_invalid">Keterangan lebar harus diisi.</string>
+    <string name="hapus">Hapus</string>
+</resources>
