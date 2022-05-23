@@ -7,4 +7,15 @@
     <string name="panjang_invalid">Keterangan panjang harus diisi.</string>
     <string name="lebar_invalid">Keterangan lebar harus diisi.</string>
     <string name="hapus">Hapus</string>
+    <string name="hasilLuas">Hasil : %1$.2f cm2</string>
+    <string name="judul_fragment2">Rumus Bangun Datar Lainnya</string>
+    <string name="saran_rumus1">Luas Persegi :\n\nL = s x s</string>
+    <string name="saran_rumus2">Luas Jajar Genjang :\n\nL = a x t</string>
+    <string name="saran_rumus3">Luas Segitiga :\n\nL = 1/2a x t</string>
+    <string name="saran_rumus4">Luas Trapesium :\n\nL = 1/2 x jumlah sisi sejajar x t</string>
+    <string name="rumus_lainnya">Rumus Lainnya</string>
+    <string name="copyright">Aplikasi hitung rumus luas persegi panjang dibuat untuk mempermudah
+    setiap orang dalam membantu perhitungan luas persegi panjang dan pada aplikasi ini terdapat
+        juga rumus-rumus bangun datar lainnya</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
 </resources>
