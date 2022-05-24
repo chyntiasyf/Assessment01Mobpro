@@ -18,4 +18,6 @@
     setiap orang dalam membantu perhitungan luas persegi panjang dan pada aplikasi ini terdapat
         juga rumus-rumus bangun datar lainnya</string>
     <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="belum_ada_data">Belum ada data</string>
+    <string name="histori">Histori</string>
 </resources>

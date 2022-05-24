@@ -8,7 +8,6 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.d3if2125.persegipanjang.db.PersegiPanjangDao
-import org.d3if2125.persegipanjang.db.PersegiPanjangDb
 import org.d3if2125.persegipanjang.db.PersegiPanjangEntity
 import org.d3if2125.persegipanjang.model.HasilHitung
 
