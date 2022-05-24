@@ -41,10 +41,6 @@ class HitungFragment : Fragment() {
             )
         }
         viewModel.getHasilHitung().observe(requireActivity(), { showResult(it)})
-        viewModel.data.observe(viewLifecycleOwner,{
-            if (it == null) return@observe
-            Log.d("HitungFragment", "Data tersimpan. ID = ${it.id}")
-        })
     }
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {

@@ -12,9 +12,8 @@ import org.d3if2125.persegipanjang.db.PersegiPanjangEntity
 import org.d3if2125.persegipanjang.model.HasilHitung
 
 class HitungViewModel (private val db: PersegiPanjangDao) : ViewModel() {
-    private val hitungLuas = MutableLiveData<HasilHitung?>()
 
-    val data = db.getLastPersegiPanjang()
+    private val hitungLuas = MutableLiveData<HasilHitung?>()
 
     fun hitungLuas(panjang: Float, lebar: Float) {
         val hasilLuas = panjang * lebar

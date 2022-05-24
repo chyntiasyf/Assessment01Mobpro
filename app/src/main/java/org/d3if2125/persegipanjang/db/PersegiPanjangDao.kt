@@ -11,6 +11,6 @@ interface PersegiPanjangDao {
     @Insert
     fun insert(luas: PersegiPanjangEntity)
 
-    @Query("SELECT * FROM luas ORDER BY id DESC LIMIT 1")
-    fun getLastPersegiPanjang(): LiveData<PersegiPanjangEntity?>
+    @Query("SELECT * FROM luas ORDER BY id DESC")
+    fun getLastPersegiPanjang(): LiveData<List<PersegiPanjangEntity>>
 }
