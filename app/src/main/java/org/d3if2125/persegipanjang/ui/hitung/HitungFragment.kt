@@ -1,5 +1,6 @@
 package org.d3if2125.persegipanjang.ui.hitung
 
+import android.content.Intent
 import android.os.Bundle
 import android.text.TextUtils
 import android.util.Log
@@ -40,6 +41,8 @@ class HitungFragment : Fragment() {
                 R.id.action_hitungFragment_to_rumusFragment2
             )
         }
+        binding.buttonShare.setOnClickListener{ shareData() }
+
         viewModel.getHasilHitung().observe(requireActivity(), { showResult(it)})
     }
 
@@ -93,7 +96,22 @@ class HitungFragment : Fragment() {
     private fun showResult(result: HasilHitung?) {
         if (result == null) return
         binding.hasil.text = getString(R.string.hasilLuas, result.persegiPanjang)
-        binding.buttonRumus.visibility = View.VISIBLE
+        binding.buttonGroup.visibility = View.VISIBLE
+    }
+
+    private fun shareData(){
+        val message = getString(R.string.share_template,
+            binding.panjangInp.text,
+            binding.lebarInp.text,
+            binding.hasil.text)
+
+        val shareIntent = Intent(Intent.ACTION_SEND)
+        shareIntent.setType("text/plain").putExtra(Intent.EXTRA_TEXT, message)
+        if (shareIntent.resolveActivity(
+                requireActivity().packageManager) != null) {
+            startActivity(shareIntent)
+        }
+
     }
 
 }

@@ -14,9 +14,9 @@
     <string name="saran_rumus3">Luas Segitiga :\n\nL = 1/2a x t</string>
     <string name="saran_rumus4">Luas Trapesium :\n\nL = 1/2 x jumlah sisi sejajar x t</string>
     <string name="rumus_lainnya">Rumus Lainnya</string>
-    <string name="copyright">Aplikasi hitung rumus luas persegi panjang dibuat untuk mempermudah
+    <string name="copyright">Aplikasi hitung untuk rumus luas persegi panjang dibuat untuk mempermudah
     setiap orang dalam membantu perhitungan luas persegi panjang dan pada aplikasi ini terdapat
-        juga rumus-rumus bangun datar lainnya</string>
+        juga rumus-rumus bangun datar lainnya.</string>
     <string name="tentang_aplikasi">Tentang Aplikasi</string>
     <string name="belum_ada_data">Belum ada data</string>
     <string name="histori">Histori</string>
@@ -26,5 +26,7 @@
     <string name="konfirmasi_hapus">Apakah anda yakin untuk menghapus seluruh histori?</string>
     <string name="hapus2">Hapus</string>
     <string name="batal">Batal</string>
+    <string name="bagikan">Bagikan</string>
+    <string name="share_template">Panjang : %1$s cm\nLebar : %2$s cm\n\nLuas Persegi Panjang\n%3$s</string>
 
 </resources>
