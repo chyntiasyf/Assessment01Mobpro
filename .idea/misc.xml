@@ -3,11 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Chyntia Assyifa/AndroidStudioProjects/PersegiPanjang/app/src/main/res/drawable/circle_background.xml" value="0.1205" />
         <entry key="..\:/Users/Chyntia Assyifa/AndroidStudioProjects/PersegiPanjang/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/Chyntia Assyifa/AndroidStudioProjects/PersegiPanjang/app/src/main/res/layout/fragment_about.xml" value="0.1" />
         <entry key="..\:/Users/Chyntia Assyifa/AndroidStudioProjects/PersegiPanjang/app/src/main/res/layout/fragment_histori.xml" value="0.1" />
         <entry key="..\:/Users/Chyntia Assyifa/AndroidStudioProjects/PersegiPanjang/app/src/main/res/layout/fragment_hitung.xml" value="0.1" />
         <entry key="..\:/Users/Chyntia Assyifa/AndroidStudioProjects/PersegiPanjang/app/src/main/res/layout/fragment_rumus2.xml" value="0.176" />
+        <entry key="..\:/Users/Chyntia Assyifa/AndroidStudioProjects/PersegiPanjang/app/src/main/res/layout/item_histori.xml" value="0.1" />
         <entry key="..\:/Users/Chyntia Assyifa/AndroidStudioProjects/PersegiPanjang/app/src/main/res/menu/option_menu.xml" value="0.1" />
       </map>
     </option>

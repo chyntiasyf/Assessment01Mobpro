@@ -20,4 +20,11 @@
     <string name="tentang_aplikasi">Tentang Aplikasi</string>
     <string name="belum_ada_data">Belum ada data</string>
     <string name="histori">Histori</string>
+    <string name="hasil_x">Hasil Luas Persegi Panjang: %1$.0f cm2</string>
+    <string name="data_x">P : %1$.0f cm - L : %2$.0f cm</string>
+    <string name="hapus_histori">Hapus Histori</string>
+    <string name="konfirmasi_hapus">Apakah anda yakin untuk menghapus seluruh histori?</string>
+    <string name="hapus2">Hapus</string>
+    <string name="batal">Batal</string>
+
 </resources>
