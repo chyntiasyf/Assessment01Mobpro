@@ -13,4 +13,7 @@ interface PersegiPanjangDao {
 
     @Query("SELECT * FROM luas ORDER BY id DESC")
     fun getLastPersegiPanjang(): LiveData<List<PersegiPanjangEntity>>
+
+    @Query("DELETE FROM luas")
+    fun clearData()
 }
