@@ -1,7 +1,8 @@
-package org.d3if2125.persegipanjang.ui
+package org.d3if2125.persegipanjang.ui.hitung
 
 import android.os.Bundle
 import android.text.TextUtils
+import android.util.Log
 import android.view.*
 import android.widget.Toast
 import androidx.fragment.app.Fragment
@@ -10,13 +11,16 @@ import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
 import org.d3if2125.persegipanjang.R
 import org.d3if2125.persegipanjang.databinding.FragmentHitungBinding
+import org.d3if2125.persegipanjang.db.PersegiPanjangDb
 import org.d3if2125.persegipanjang.model.HasilHitung
 
 class HitungFragment : Fragment() {
 
     private lateinit var binding: FragmentHitungBinding
-    private val viewModel: MainViewModel by lazy {
-        ViewModelProvider(requireActivity())[MainViewModel::class.java]
+    private val viewModel: HitungViewModel by lazy {
+        val db = PersegiPanjangDb.getIntance(requireContext())
+        val factory = HitungViewModelFactory(db.dao)
+        ViewModelProvider(this, factory)[HitungViewModel::class.java]
     }
 
     override fun onCreateView(
@@ -37,6 +41,10 @@ class HitungFragment : Fragment() {
             )
         }
         viewModel.getHasilHitung().observe(requireActivity(), { showResult(it)})
+        viewModel.data.observe(viewLifecycleOwner,{
+            if (it == null) return@observe
+            Log.d("HitungFragment", "Data tersimpan. ID = ${it.id}")
+        })
     }
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {

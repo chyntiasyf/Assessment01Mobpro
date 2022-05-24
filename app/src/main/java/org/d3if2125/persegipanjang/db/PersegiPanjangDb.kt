@@ -14,7 +14,7 @@ abstract class PersegiPanjangDb : RoomDatabase() {
         @Volatile
         private var INSTANCE: PersegiPanjangDb? = null
 
-        fun getInstance(context: Context): PersegiPanjangDb{
+        fun getIntance (context: Context): PersegiPanjangDb{
             synchronized(this) {
                 var instance = INSTANCE
 
