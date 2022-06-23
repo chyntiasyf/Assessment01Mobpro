@@ -12,4 +12,9 @@
         android:id="@+id/menu_about"
         android:title="@string/tentang_aplikasi"
         app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_ruang"
+        android:title="@string/rumus_bruang"
+        app:showAsAction="never"/>
 </menu>

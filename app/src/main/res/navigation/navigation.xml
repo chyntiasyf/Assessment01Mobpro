@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/hitungFragment"
         android:name="org.d3if2125.persegipanjang.ui.hitung.HitungFragment"
-        android:label="fragment_hitung"
+        android:label="Luas Persegi Panjang"
         tools:layout="@layout/fragment_hitung" >
         <action
             android:id="@+id/action_hitungFragment_to_rumusFragment2"
@@ -19,18 +19,26 @@
         <action
             android:id="@+id/action_hitungFragment_to_historiFragment"
             app:destination="@id/historiFragment" />
+        <action
+            android:id="@+id/action_hitungFragment_to_fragmentRuang"
+            app:destination="@id/fragmentRuang" />
     </fragment>
     <fragment
         android:id="@+id/rumusFragment2"
         android:name="org.d3if2125.persegipanjang.ui.RumusFragment"
-        android:label="RumusFragment" />
+        android:label="Rumus Luas Bangun Datar" />
     <fragment
         android:id="@+id/aboutFragment"
         android:name="org.d3if2125.persegipanjang.ui.AboutFragment"
-        android:label="AboutFragment" />
+        android:label="Tentang Aplikasi" />
     <fragment
         android:id="@+id/historiFragment"
         android:name="org.d3if2125.persegipanjang.ui.histori.HistoriFragment"
-        android:label="HistoriFragment"
+        android:label="Riwayat"
         tools:layout="@layout/fragment_histori"/>
+    <fragment
+        android:id="@+id/fragmentRuang"
+        android:name="org.d3if2125.persegipanjang.ui.bangunruang.FragmentRuang"
+        android:label="Rumus Bangun Ruang"
+        tools:layout="@layout/fragment_ruang" />
 </navigation>

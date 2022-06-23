@@ -8,7 +8,7 @@
     <string name="lebar_invalid">Keterangan lebar harus diisi.</string>
     <string name="hapus">Hapus</string>
     <string name="hasilLuas">Hasil : %1$.2f cm2</string>
-    <string name="judul_fragment2">Rumus Bangun Datar Lainnya</string>
+    <string name="judul_fragment2">Rumus</string>
     <string name="saran_rumus1">Luas Persegi :\n\nL = s x s</string>
     <string name="saran_rumus2">Luas Jajar Genjang :\n\nL = a x t</string>
     <string name="saran_rumus3">Luas Segitiga :\n\nL = 1/2a x t</string>
@@ -28,5 +28,9 @@
     <string name="batal">Batal</string>
     <string name="bagikan">Bagikan</string>
     <string name="share_template">Panjang : %1$s cm\nLebar : %2$s cm\n\nLuas Persegi Panjang\n%3$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rumus_bruang">Bangun Ruang</string>
+    <string name="empty">Belum ada data</string>
 
 </resources>
