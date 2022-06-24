@@ -33,5 +33,9 @@
     <string name="rumus_bruang">Bangun Ruang</string>
     <string name="empty">Belum ada data</string>
     <string name="koneksi_error">Koneksi Error</string>
+    <string name="nama_channel">Updater</string>
+    <string name="deskripsi_channel">Update Data Bangun Ruang Otomatis</string>
+    <string name="notif_judul">Rumus baru sudah masuk</string>
+    <string name="notif_text">Yuk sama-sama kita lihat dan pelajari !</string>
 
 </resources>
