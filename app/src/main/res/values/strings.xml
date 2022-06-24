@@ -32,5 +32,6 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="rumus_bruang">Bangun Ruang</string>
     <string name="empty">Belum ada data</string>
+    <string name="koneksi_error">Koneksi Error</string>
 
 </resources>
